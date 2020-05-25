@@ -10,11 +10,12 @@
 <body>
     <div class="flex">
         <input id="elem" type="button" value="Нажми меня!">
+        <script>
+            elem.onclick = function() {
+                alert('Спасибо');
+            };
+        </script>
     </div>
-    <script>
-        elem.onclick = function() {
-            alert('Спасибо');
-        };
-    </script>
+    
 </body>
 </html>
