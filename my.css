@@ -3,3 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+input[type=button] {
+    width: 80em; height: 20em;
+}
