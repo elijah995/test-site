@@ -11,6 +11,12 @@
         data-sap-ui-libs='sap.ui.commons'></script>
 </head>
 <body>
+    <input id="elem" type="button" value="Нажми меня!">
+    <script>
+        elem.onclick = function() {
+            alert('Спасибо');
+        };
+    </script>
     <div id='content'>
         <script>
             var btn = new sap.ui.commons.Button({
