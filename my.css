@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 input[type=button] {
-    width: 40em; height: 5em; font-size: 24px
+    width: 80%; height: 10%; font-size: 24px
 }
 .flex:nth-of-type(table) {
 	order: -1
