@@ -7,5 +7,5 @@ input[type=button] {
     width: 20em; height: 5em; font-size: 24px
 }
 .table {
-	order=-1
+	order: -1
 }
